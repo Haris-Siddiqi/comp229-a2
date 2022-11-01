@@ -1,0 +1,37 @@
+<%- include partials/header.ejs %> <%- include partials/main_nav.ejs %>
+
+  <!-- Main Message -->
+  <main class="background">
+    <h1 class="welcome">Haris Siddiqi's Portfolio Page</h1>
+    
+    <!-- Image with url section -->
+    <section id="home">
+      
+      <div>
+        <img
+          src="https://i.imgur.com/0wo5QLW.png"
+          class="img-fluid"
+          alt="A door to another universe with fog comming out of it  "
+          onclick="enterVoid()"
+        />
+      </div>
+
+      <div class="column">
+        <div>
+          <h4 class="white">My goal is to provide <br> software engineering services <br> that make an impact to the company <br> and solve problems. </h4> 
+        </div>
+
+        <div>
+          <h4 class="pink">So click on the door <br> to know a little more <br> about me </h4> 
+        </div>
+      </div>
+
+      <script>
+          function enterVoid() {window.location.href = "/about";}
+      </script>
+      
+    </section>
+</main>
+
+  <%- include partials/bottom_nav.ejs %> <%- include partials/footer.ejs %>
+

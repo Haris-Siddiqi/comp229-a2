@@ -1,0 +1,146 @@
+/** 
+*  COMP229
+*  Assignment 2
+*  Haris Siddiqi - 301126020
+*/
+
+  /* Main css goes here */
+  .navbar {
+      align-items: center;
+      color: rgb(255, 0, 157);
+  }
+  .navbar-brand img {
+      width: 80px;
+      height: 80px;
+      margin-left: 100px;
+  }
+  .nav-item {
+      justify-content: space-between;
+      align-items: center;
+      letter-spacing: 5px;
+      color: Mediumslateblue;
+  }
+  section {
+    padding-top: 30px;
+    max-height: 750px;
+    display: flex;
+    justify-content: space-around;
+  } 
+
+    /* CSS for the Home Page */
+  #home{
+    padding-left: 25%;
+    padding-right: 10px;
+  }
+  .welcome {
+      color: white;
+  }
+  .background {
+    background-image: url("https://i.imgur.com/xDX3YeG.jpg");
+    height: 800px;
+    background-size: cover;
+  }  
+  section .column {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .img-fluid {
+      max-height: 740px;
+  }
+  .white{
+    color: white;
+  }
+  .pink {
+    color: rgb(255, 0, 157);
+  }
+  @media (max-width: 700px) {
+    section {
+      padding-top: 10px;
+      padding-left: 0;
+      padding-right: 5px;
+    }
+
+    .img-fluid {
+      min-height: 400px;
+      min-width: 380px;
+    }
+
+    .white {
+    color: rgb(255, 0, 157);
+    }
+
+    .pink {
+        color: Mediumslateblue;
+    }
+  }
+
+  /* CSS for About Page */
+  #aboutMe {
+    padding-left: 5%;
+    margin-left:5%;
+    padding-right: 10px;
+    background-image: url("https://i.imgur.com/JRzzMd7.jpg");
+    height: 700px;
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+  #mountains {  
+    background-image: url("https://i.imgur.com/CGDOrI9.gif");
+  }
+  .dragon {
+    padding-left: 5%;
+    width: 40%;
+  }
+  .media{
+    padding-left: 5%;
+  }
+  .media-body {
+    min-width: 250px;
+  }
+  .media-body1 {
+    min-width: 180px;
+  }
+  .mt-0 {
+    color:red;
+  }  
+  .mr-3 {
+    max-height: 550px; 
+    max-width: 390px;
+
+  }
+  @media (max-width: 700px) {
+
+    section {
+      max-height: 750px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #aboutMe {
+      margin-top: 2%;
+      margin-left: 5%;
+      padding-right: 10px;
+    }
+
+    .media-body {
+      min-width: 0px;
+    }
+
+    .mr-3 {
+      margin-top: 45%;
+      max-height: 350px;
+      max-width: 190px;
+    }
+  }
+
+  /* CSS for Contact Page */
+  #contact{
+    padding-left: 250px;
+    padding-right: 150px;
+  }
+  @media (max-width: 700px) {
+    #contact {
+      padding-left: 25px;
+      padding-right: 15px;
+    }
+  }
